@@ -1,9 +1,10 @@
 @import 'libs/bootstrap-reboot.min';
-@import "base/_mixins";
-@import "base/_variables";
+@import "base/variables";
+@import "base/mixins";
 @import "blocks/promo";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
 @import "blocks/title";
+@import "blocks/sidepanel";
 
 
 * {
