@@ -1,0 +1,40 @@
+.sidepanel{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 202px;
+  z-index: 3;
+  top: 218px;
+  left: -5px;
+  .icon-Instagram{
+    margin-top: 15px;
+  }
+  .icon-Github{
+    margin-top: 15px;
+  }
+  .icon-Facebook{
+    margin-top: 0;
+  }
+  &_devider{
+    width: 70px;
+    height: 0;
+    margin-top: 15px;
+    border: 1px solid #FFFFFF;
+    transform: rotate(-90deg);
+    background-color: white;
+  }
+  &_text{
+    width: 148px;
+    height: 24px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    span{
+      transform: rotate(-90deg) translate(-50%,-10%);
+      display: block;
+      width: 150px;
+    }
+  }
+}
