@@ -20,6 +20,14 @@
     justify-content: space-between;
     width: 240px;
     margin-top: 39px;
+    .btn{
+      &:hover{
+        animation-name: animation-hover-btn;
+        animation-timing-function: linear;
+        animation-duration: 1.2s;
+        animation-fill-mode: forwards;
+      }
+    }
   }
   &_link{
     color: white;
@@ -33,6 +41,33 @@
   }
 }
 
+.hamburger{
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  height: 21px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  cursor: pointer;
+  span{
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #ffffff;
+  }
+  span.long{
+    width: 36px;
+  }
+}
+
 .btn{
   @include btn;
+}
+
+@keyframes animation-hover-btn {
+  to{
+    background-color: $btn-hover-color;
+  }
 }
