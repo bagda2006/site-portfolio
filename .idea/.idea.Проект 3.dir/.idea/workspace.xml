@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6abf77ca-81c4-45b3-aef7-3a42661b15bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sass/blocks/_sidepanel.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Проект 3.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Проект 3.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/iconFonts/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/iconFonts/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/base/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/base/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/blocks/_promo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_promo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +39,12 @@
       <option value="$PROJECT_DIR$/src/sass/base/_variables.scss" />
       <option value="$PROJECT_DIR$/src/sass/blocks/_title.scss" />
       <option value="$PROJECT_DIR$/src/sass/base/_mixins.scss" />
-      <option value="$PROJECT_DIR$/src/sass/blocks/_promo.scss" />
       <option value="$PROJECT_DIR$/src/sass/style.scss" />
       <option value="$PROJECT_DIR$/dist/iconFonts/style.css" />
-      <option value="$PROJECT_DIR$/src/index.html" />
       <option value="$PROJECT_DIR$/src/sass/blocks/_sidepanel.scss" />
+      <option value="$PROJECT_DIR$/src/sass/blocks/_promo.scss" />
+      <option value="$PROJECT_DIR$/src/js/script.js" />
+      <option value="$PROJECT_DIR$/src/index.html" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vGDzxDh06EB96IExNkUbQZuy5W" />
@@ -72,7 +72,8 @@
       <updated>1626179798142</updated>
       <workItem from="1626179799728" duration="1224000" />
       <workItem from="1626181030156" duration="1165000" />
-      <workItem from="1626182328486" duration="12556000" />
+      <workItem from="1626182328486" duration="12841000" />
+      <workItem from="1626353644765" duration="4926000" />
     </task>
     <servers />
   </component>
@@ -89,6 +90,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
