@@ -1,0 +1,96 @@
+.resume{
+  padding-top: 120px;
+  &_title{
+    position: relative;
+    text-align: center;
+    @include before_circle;
+    &:before{
+      top: -6px;
+      left: 50%;
+      transform: translate(-50%);
+    }
+  }
+  &_subtitle{
+    text-align: center;
+  }
+  &_wrapper{
+    padding: 60px 65px 0 65px;
+    display: grid;
+    grid-template-columns: repeat(2, 425px);
+    column-gap: 137px;
+    
+  }
+  &_column{
+    &-title{
+      padding-left: 35px;
+      position: relative;
+      &:before{
+        content: '';
+        position: absolute;
+        height: 15px;
+        width: 15px;
+        background-color: $main-color;
+        border-radius: 100%;
+        left: 1px;
+        top: 20%;
+        transform: translate(-50%);
+      }
+    }
+    ul{
+      list-style-type: none;
+      li{
+        position: relative;
+        &:after{
+          content: '';
+          position: absolute;
+          width: 1px;
+          height: 100%;
+          top: -17px;
+          left: 0;
+          background-color: black;
+        }
+      }
+    }
+  }
+  &_item{
+    position: relative;
+    &:before{
+      content: '';
+      height: 1px;
+      width: 42px;
+      position: absolute;
+      background-color: black;
+      top: 30px;
+    }
+    &-head{
+      position: relative;
+      padding: 11px 0 0 100px;
+      h4{
+        margin-bottom: 0;
+      }
+    }
+    &-body{
+      margin-top: 12px;
+      padding-left: 43px;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 18px;
+    }
+    &-icon{
+      position: absolute;
+      top: 12px;
+      left: 42px;
+      @include before_circle;
+      img{
+        position: absolute;
+        left: 14px;
+        top: 15px;
+      }
+    }
+    &-industry{
+      margin-top: 5px;
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
+}

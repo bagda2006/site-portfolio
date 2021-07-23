@@ -1,0 +1,26 @@
+.techn{
+  padding-top: 35px;
+  &_title{
+    position: relative;
+    text-align: center;
+    @include before_circle;
+    &:before{
+      left: 550px;
+    }
+  }
+  &_subtitle{
+    text-align: center;
+  }
+  &_list{
+    padding-top: 61px;
+    display: grid;
+    width: 1140px;
+    grid-template-columns: repeat(4, 275px);
+    grid-template-rows: repeat(3, 275px);
+    column-gap: 13px;
+    row-gap: 13px;
+    &-item{
+      border: 1px solid #000000;
+    }
+  }
+}

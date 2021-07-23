@@ -18,14 +18,17 @@
     }
   }
 
-  &_descr {
+  &_descr{
     padding-top: 6px;
 
-    .divider {
-      margin-top: 0;
-    }
   }
-
+  &_devider {
+    width: 60px;
+    height: 0px;
+    border: 2px solid #0094FF;
+    background-color: $main-color;
+    margin: 0;
+  }
   &_title {
     position: relative;
     padding: 1px 0 0 12px;
